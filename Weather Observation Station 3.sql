@@ -1,0 +1,3 @@
+SELECT DISTINCT city
+FROM station
+WHERE ID MOD 2 = 0
